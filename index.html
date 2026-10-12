@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile - Salsabil XI RPL</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',sans-serif}
+body{background:#f5f3ff;color:#1f2937}
+header{background: linear-gradient(135deg,#06b6d4,#6366f1,#8b5cf6,#ec4899);color:white;padding:50px 20px;text-align:center;border-radius:0 0 30px 30px}
+header img{width:130px;height:130px;border-radius:50%;object-fit:cover;border:4px solid white;box-shadow:0 8px 20px rgba(0,0,0,.2)}
+header h1{margin:15px 0 5px;font-size:30px}
+.tag{ background:rgba(255,255,255,.25);padding:6px 14px;border-radius:20px;display:inline-block;margin-top:8px;font-weight:600}
+.container{max-width:900px;margin:auto;padding:20px}
+.card{background:white;padding:24px;border-radius:16px;box-shadow:0 4px 15px rgba(0,0,0,.06);margin:20px 0}
+h2{color:#6366f1;margin-bottom:12px;border-left:5px solid #ec4899;padding-left:10px}
+table{width:100%;border-collapse:collapse}
+td{padding:10px;border-bottom:1px solid #eee}
+td:first-child{font-weight:600;width:140px;color:#6b7280}
+.skills{display:flex;gap:12px;flex-wrap:wrap}
+.skill{background:#eef2ff;color:#4f46e5;padding:12px 18px;border-radius:12px;font-weight:600;flex:1;min-width:120px;text-align:center}
+.contact a{display:inline-block;margin:8px 8px 0 0;padding:10px 16px;background:#111827;color:white;text-decoration:none;border-radius:8px}
+.contact a.ig{background:linear-gradient(45deg,#f43f5e,#8b5cf6)}
+@media(max-width:600px){header h1{font-size:22px}.skills{flex-direction:column}}
+</style>
+</head>
+<body>
+
+<header>
+  <img src="https://drive.google.com/thumbnail?id=1EKpLDDtnWc1zb_hDG_QdOnQ6kgXKZrTJ&sz=w1000" alt="Foto Salsabil">
+  <h1>Salsabil</h1>
+  <p>Kelas: XI RPL</p>
+  <div class="tag">"Bercita-cita Menjadi Mermaid" 🧜‍♀️</div>
+</header>
+
+<div class="container">
+  <div class="card">
+    <h2>Tentang Saya</h2>
+    <p>Halo! Saya <b>Salsabil</b> dari kelas XI RPL. Saya lahir di Pontianak, 09-09-2009. Cita-cita saya menjadi mermaid! Hobi saya mancing karena bikin tenang. Di RPL saya belajar jadi web developer.</p>
+  </div>
+  <div class="card">
+    <h2>Biodata</h2>
+    <table>
+      <tr><td>Nama Lengkap</td><td>Salsabil</td></tr>
+      <tr><td>Kelas</td><td>XI RPL</td></tr>
+      <tr><td>TTL</td><td>Pontianak, 09-09-2009</td></tr>
+      <tr><td>Alamat</td><td>Jalan Imam Bonjol Gg Hj Ali, Pontianak</td></tr>
+      <tr><td>Email Sekolah</td><td>salsabil.xirpl@sekolah.sch.id</td></tr>
+      <tr><td>Cita-cita</td><td>Menjadi Mermaid 🧜‍♀️</td></tr>
+    </table>
+  </div>
+  <div class="card">
+    <h2>Keahlian / Hobi</h2>
+    <div class="skills">
+      <div class="skill">🎣 Mancing</div>
+      <div class="skill">💻 HTML & CSS</div>
+      <div class="skill">🧜‍♀️ Swimming</div>
+    </div>
+  </div>
+  <div class="card contact">
+    <h2>Kontak / Media Sosial</h2>
+    <a href="mailto:salsabil.xirpl@sekolah.sch.id">📧 Email</a>
+    <a href="https://www.instagram.com/syl.s4aa" class="ig" target="_blank">📷 Instagram @syl.s4aa</a>
+  </div>
+</div>
+
+<script>
+document.querySelector('header').addEventListener('click', ()=>{
+  alert("Halo! Aku Salsabil the Mermaid 🧜‍♀️ dari XI RPL");
+});
+</script>
+
+</body>
+  </html>
